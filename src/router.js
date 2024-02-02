@@ -8,12 +8,17 @@ const serveHome = (_, res) => {
   res.sendFile(filePath);
 };
 
+const serveEducation = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/education.html`;
+  res.sendFile(filePath);
+}
 
 const createApp = () => {
     // Create a new Express application.
     const app = express();
     
     app.get("/", serveHome);
+    app.get("/education", serveEducation);
     app.use(express.static("public"));
     return app;
 }
