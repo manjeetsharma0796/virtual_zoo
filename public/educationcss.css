@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+    background-color: rgba(66, 43, 1, 0.432);
+}
+.topnav {
+    margin-left: -8px;
+    background-color:  rgb(88, 57, 1);
+    position: relative;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav-right a:hover {
+    background-color: #ddd;
+    color: rgb(66, 43, 1);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  .topnav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  
+  .education {
+    margin-top: 28px;
+    background-color:  rgb(150, 99, 3);
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+  }
+  .education a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 19px;
+    padding-left: 9px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .picture
+  {
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-top: 0px;
+  }
+  img
+  {
+    border-radius: 10px;
+  }
+p
+{
+    display: inline-flex;
+    vertical-align: top;
+    font-size: 20px;
+}
+.chain, .life , .ana , .dig
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-top: 4px;
+  height: 50px;
+  width: 100%;
+  background-color:rgb(88, 57, 1);;
+  color: white;
+  text-align: center;
+}
