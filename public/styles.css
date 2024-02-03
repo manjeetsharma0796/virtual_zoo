@@ -35,6 +35,9 @@ html{
   .video{
     margin-top: 60px;
     margin-left: -9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons{
@@ -65,7 +68,7 @@ html{
     text-align: center;
     overflow: hidden;
     background-color: rgb(88, 57, 1);
-    margin-left: 0px;
+    margin-left: -8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +84,7 @@ html{
     padding-left: 16.5px;
     padding-right: 16.5px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 19px;
 }
   
 #navbarr a:hover {
