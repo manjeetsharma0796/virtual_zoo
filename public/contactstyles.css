@@ -14,7 +14,7 @@ html{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 23px;
   }
   
   /* Change the color of links on hover */
@@ -33,9 +33,9 @@ html{
       width: 100%;
   }
   .topnav1 {
-    margin-top: 50px;
+    margin-top: 55px;
     background-color:  rgb(150, 99, 3);
-    display: block;
+    display: flex;
     height: 50px;
 
 }
@@ -43,7 +43,7 @@ html{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 12px;
     padding-bottom: 19px;
     padding-left: 9px;
     text-decoration: none;
