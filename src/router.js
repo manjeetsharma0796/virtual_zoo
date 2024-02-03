@@ -32,6 +32,26 @@ const serveMuseum = (req, res) => {
   const filePath = `${ROOT_DIR}/public/museum.html`;
   res.sendFile(filePath);
 }
+const serveAnalytics = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/analytics.html`;
+  res.sendFile(filePath);
+}
+const serveVr = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/vr.html`;
+  res.sendFile(filePath);
+}
+const serveHologram = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/hologram.html`;
+  res.sendFile(filePath);
+}
+const serve360vr = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/360vr.html`;
+  res.sendFile(filePath);
+}
+const serveGames = (req, res) => {
+  const filePath = `${ROOT_DIR}/public/games.html`;
+  res.sendFile(filePath);
+}
 
 const createApp = () => {
     // Create a new Express application.
@@ -43,6 +63,11 @@ const createApp = () => {
     app.get("/animals", serveAnimals);
     app.get("/contact", serveContact);
     app.get("/museum", serveMuseum);
+    app.get("/analytics", serveAnalytics);
+    app.get("/vr", serveVr);
+    app.get("/hologram", serveHologram);
+    app.get("/360vr", serve360vr);
+    app.get("/games", serveGames);
     app.use(express.static("public"));
     return app;
 }
