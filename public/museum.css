@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+    background-color: rgba(66, 43, 1, 0.432);
+}
+.topnav {
+    margin-left: -8px;
+    background-color:  rgb(88, 57, 1);
+    position: relative;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav-right a:hover {
+    background-color: #ddd;
+    color: rgb(66, 43, 1);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  .topnav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  .museum {
+    margin-top: 28px;
+    background-color:  rgb(150, 99, 3);
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+  }
+
+  .museum a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 19px;
+    padding-left: 9px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .hist, .subspecies , .exsubspecies
+  {
+    padding-left:17px;
+    padding-right: 17px;
+  }
+  .para{
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family: arial;
+    text-align: justify;
+  }
+
+  .mainhistory{
+    font-size: 29px;
+    letter-spacing: 5px;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .subhistory{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: arial;
+    font-weight: 600;
+  }
+
+  img 
+  {
+    display: inline-flex;
+  }
+  img
+  {
+    margin-left: 60px;
+    margin-right: 80px;
+  }
+
+  .footer,.foot {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding-top: 4px;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(88, 57, 1);;
+    color: white;
+    text-align: center;
+    
+  }
