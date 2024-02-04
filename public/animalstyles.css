@@ -78,6 +78,11 @@ html{
     cursor: pointer;
   }
 
+  .video-description a{
+    text-decoration: none;
+    color: black;
+  }
+
   .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
