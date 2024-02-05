@@ -88,17 +88,21 @@ span{
     font-size: 25px;
     margin-left: 160px;
 }
-  .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    padding-top: 4px;
-    height: 50px;
-    width: 100%;
-    background-color:rgb(88, 57, 1);;
-    color: white;
-    text-align: center;
-    
-  }
 
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-top: 4px;
+  height: 50px;
+  width: 100%;
+  background-color:rgb(88, 57, 1);;
+  color: white;
+  text-align: center;
   
+}
+.vr {
+  width: max-content;
+  padding: 2em;
+  margin: 3em auto;
+} 
