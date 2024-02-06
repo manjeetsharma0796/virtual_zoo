@@ -104,3 +104,12 @@ span {
   padding: 2em;
   margin: 3em auto;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}

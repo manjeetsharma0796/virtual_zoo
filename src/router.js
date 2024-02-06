@@ -49,7 +49,7 @@ const serve360vr = (req, res) => {
   res.sendFile(filePath);
 }
 const serveGames = (req, res) => {
-  const filePath = `${ROOT_DIR}/public/games.html`;
+  const filePath = `${ROOT_DIR}/index.html`;
   res.sendFile(filePath);
 }
 
