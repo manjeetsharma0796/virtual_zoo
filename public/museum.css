@@ -15,6 +15,7 @@ html{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 23px;
+    font-family: sans-serif;
   }
   
   /* Change the color of links on hover */
@@ -52,6 +53,7 @@ html{
     padding-left: 9px;
     text-decoration: none;
     font-size: 25px;
+    font-family: sans-serif;
   }
   .hist, .subspecies , .exsubspecies
   {

@@ -15,6 +15,7 @@ html{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
+  font-family: sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -89,15 +90,22 @@ display: block;
   font-size: 25px;
   margin-left: 160px;
 }
+
 .footer {
   position: relative;
   left: 0;
   bottom: 0;
-  padding-top: 2%;
+  padding: 5px;
   height: 50px;
   width: 100%;
   background-color:rgb(88, 57, 1);;
   color: white;
   text-align: center;
   
+}
+
+.video {
+  width: max-content;
+  padding: 2em;
+  margin: 3em auto;
 }
