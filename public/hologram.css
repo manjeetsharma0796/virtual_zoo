@@ -15,7 +15,6 @@ html{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
-  font-family: sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -90,12 +89,18 @@ display: block;
   font-size: 25px;
   margin-left: 160px;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:blue;
+}
 .footer {
   position: relative;
   left: 0;
   bottom: 0;
-  padding: 5px;
+  padding-top: 2%;
   height: 50px;
   width: 100%;
   background-color:rgb(88, 57, 1);;
@@ -103,9 +108,9 @@ display: block;
   text-align: center;
   
 }
-
-.video {
-  width: max-content;
+.video
+{
+  width:max-content;
   padding: 2em;
   margin: 3em auto;
 }

@@ -13,7 +13,8 @@ function preload()
   img4=loadImage("assets/tigimages/tigeroverfed.png");
   img5=loadImage("assets/tigimages/tigerbond.png");
   img6=loadImage("assets/tigimages/tigeroverbond.png");
-  img7=loadImage("assets/tigimages/bg.webp");
+  img7=loadImage("assets/tigimages/bg.jpg");
+  img8=loadImage("assets/tigimages/dead.png");
   tigerAnimation=loadAnimation("assets/tigergif/1.gif","assets/tigergif/2.gif","assets/tigergif/3.gif","assets/tigergif/4.gif","assets/tigergif/5.gif","assets/tigergif/6.gif","assets/tigergif/7.gif","assets/tigergif/8.gif");
   tigerAnimation2=loadAnimation("assets/tigergif2/1.gif","assets/tigergif2/2.gif","assets/tigergif2/3.gif","assets/tigergif2/4.gif","assets/tigergif2/5.gif","assets/tigergif2/6.gif","assets/tigergif2/7.gif");
 }
@@ -31,6 +32,7 @@ function setup()
     char.addAnimation("TIGER",img1);
     char.addAnimation("TIGGIF",tigerAnimation);
     char.addAnimation("TIGGIF2",tigerAnimation2);
+    char.addAnimation("DEAD",img8);
     char.scale=0.2;
     button1=createButton("GROW");
     button1.addClass("buttons");
@@ -82,6 +84,15 @@ function func1()
     char.scale=0.5;
   }
   char.changeAnimation("TIGGIF2");
+  char.scale=0.5;
+  if(age>=27)
+  {
+    bond=0;
+    hunger=0;
+    char.changeAnimation("DEAD");
+    stts="DEAD :(";
+    return;
+  }
 }
 
 function func2()
@@ -100,6 +111,15 @@ function func2()
     char.scale=0.7;
     text("FORCEFUL BONDING NOT ALLOWED :) ", 200,150);
   }
+  if(age>=27)
+  {
+    bond=0;
+    hunger=0;
+    char.changeAnimation("DEAD");
+    stts="DEAD :(";
+    char.scale=0.5;
+    return;
+  }
 }
 
 function func3()
@@ -114,5 +134,14 @@ function func3()
     stts="OVERFED :(";
 
     text("FORCEFUL FEEDING NOT ALLOWED :) ", 200,170);
+  }
+  if(age>=27)
+  {
+    bond=0;
+    hunger=0;
+    char.changeAnimation("DEAD");
+    stts="DEAD :(";
+    char.scale=0.5;
+    return;
   }
 }
